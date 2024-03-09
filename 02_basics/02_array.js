@@ -1,10 +1,10 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
-// marvel_heros.push(dc_heros)
+marvel_heros.push(dc_heros)
 
-// console.log(marvel_heros);
-// console.log(marvel_heros[3][1]);
+// console.log(marvel_heros);        Output - ['thor','Ironman','spiderman',['superman','flash','batman']]
+// console.log(marvel_heros[3][1]);  Output - 'flash'
 
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
@@ -22,7 +22,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.from({name: "hitesh"})) // Output - [] (becuse we need to tell like array of what "values" or "keys")
 
 let score1 = 100
 let score2 = 200
