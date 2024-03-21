@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1", //Symbol
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -18,8 +18,8 @@ const JsUser = {
 }
 
 // console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
+// console.log(JsUser["email"])  
+// console.log(JsUser["full name"]) 
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"

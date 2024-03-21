@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course  //For preventing repetitive calling like this -> (course.courseInstructor)
 
 // console.log(courseInstructor);
 console.log(instructor);
